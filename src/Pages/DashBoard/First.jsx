@@ -13,16 +13,16 @@ function First() {
     <div className="h-[62vh] md:h-screen relative pt-[6rem] 2xl:pt-[6rem] ">
       <div className="relative h-full rounded-3xl  border border-[#EDEDEF] pt-10 overflow-hidden">
         <div className=" flex relative flex-col items-center gap-4 w-full">
-          <div className="flex flex-col items-center gap-2 md:gap-0">
+          <div className="flex relative flex-col items-center gap-2 md:gap-0">
             <h1 className="text-[#695FD9] text-[24px] md:text-[40px] xl:text-[44px] 2xl:text-[70px] font-Manrope font-bold leading-none">
               Passport OCR SDK
             </h1>
-            <div className="flex items-center gap-4">
-              <h1 className="text-[#0D0D10] text-[24px] md:text-[40px] xl:text-[44px]  2xl:text-[70px] font-bold font-Manrope leading-none">
+            <div className="flex items-center">
+              <h1 className="text-[#0D0D10] text-[24px] md:text-[40px] xl:text-[44px]  2xl:text-[70px] font-bold font-Manrope leading-none ">
                 unmatched cost efficiency
               </h1>
 
-              <div className="relative top-19 -left-10">
+              <div className="">
                 <img src={Rahul} alt="" className="w-full h-full" />
               </div>
             </div>

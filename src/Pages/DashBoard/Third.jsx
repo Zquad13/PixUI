@@ -29,7 +29,7 @@ function Third() {
   ];
 
   return (
-    <div className="bg-[#F7F7FD] py-15 flex flex-col gap-12  md:px-16 max-w-screen-2xl mx-auto">
+    <div className="bg-[#F7F7FD] py-15 flex flex-col gap-12  md:px-16 w-[80%] max-w-screen-2xl mx-auto">
       
       <div className="flex flex-col items-center justify-center">
         <h1 className="text-[24px] md:text-[28px] xl:text-[40px] 2xl:[48px] font-semibold font-Manrope leading-none">
@@ -50,7 +50,7 @@ function Third() {
                 <AccordionTrigger className="text-[16px] lg:!text-lg 2xl:text-[20px] font-medium font-Manrope">
                   {item.title}
                 </AccordionTrigger>
-                <AccordionContent className="text-xs md:text-sm text-[#6F6F6F] font-Manrope">
+                <AccordionContent className="text-xs md:text-sm text-[#6F6F6F] font-Manrope ">
                   {item.content}
                 </AccordionContent>
               </AccordionItem>
