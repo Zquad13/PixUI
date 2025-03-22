@@ -17,25 +17,38 @@ function First() {
             <h1 className="text-[#695FD9] text-[24px] md:text-[40px] xl:text-[44px] 2xl:text-[70px] font-Manrope font-bold leading-none">
               Passport OCR SDK
             </h1>
-            <h1 className="text-[#0D0D10] text-[24px] md:text-[40px] xl:text-[44px]  2xl:text-[70px] font-bold font-Manrope leading-none">
-              unmatched cost efficiency
-            </h1>
+            <div className="flex items-center gap-4">
+              <h1 className="text-[#0D0D10] text-[24px] md:text-[40px] xl:text-[44px]  2xl:text-[70px] font-bold font-Manrope leading-none">
+                unmatched cost efficiency
+              </h1>
+
+              <div className="relative top-19 -left-10">
+                <img src={Rahul} alt="" className="w-full h-full" />
+              </div>
+            </div>
           </div>
           <p className="flex  text-center font-Montserrat text-xs lg:text-sm max-w-[250px] md:wax-w-[100px] lg:max-w-xl font-Montserrat">
             Verify identities quickly with just a smartphone and an electronic
             passport. Experience effortless and secure identity verification
             with our NFC-propelled Passport SDK.
           </p>
-          <div className="absolute top-40 left-16 lg:top-42 lg:left-70 2xl:top-60 2xl:left-68">
-            <img src={Akash} alt="" className="w-12 h-10  2xl:w-15 2xl:h-12" />
-          </div>
-          <div className="absolute top-14 md:top-22 lg:top-14 right-8 md:right-25  xl:top-24 xl:right-80 2xl:right-74 2xl:top-37">
-            <img src={Rahul} alt="" className="w-12 h-10 xl:w-15 xl:h-12" />
-          </div>
 
-          <Button className="text-sm 2xl:text-base font-Montserrat px-8 py-4 !rounded-[40px] cursor-pointer">
-            Book Demo
-          </Button>
+          <div className="flex relative gap-300">
+            <div>
+              <div className="absolute right">
+                <img
+                  src={Akash}
+                  alt=""
+                  className="w-12 h-10  2xl:w-15 2xl:h-12"
+                />
+              </div>
+            </div>
+            <div>
+              <Button className="text-sm 2xl:text-base font-Montserrat px-8 py-4 !rounded-[40px] cursor-pointer absolute left-1/2 -translate-x-1/2">
+                Book Demo
+              </Button>
+            </div>
+          </div>
         </div>
         <div>
           <div className="absolute bottom-0 left-1/2 -translate-x-1/2">
@@ -62,10 +75,18 @@ function First() {
           </div>
         </div>
         <div className="absolute bottom-0 right-0 h-[50vh] w-[50vw]  -z-50">
-          <img src={vector} alt="" className="bg-[#E0E3FD]  transform rotate-[-144.78deg] blur-3xl " />
+          <img
+            src={vector}
+            alt=""
+            className="bg-[#E0E3FD]  transform rotate-[-144.78deg] blur-3xl "
+          />
         </div>
         <div className="absolute bottom-0 left-0 h-[50vh] w-[50vw]  -z-50">
-          <img src={vector} alt="" className="bg-[#E7F6FF] transform rotate-[144.78deg] blur-3xl " />
+          <img
+            src={vector}
+            alt=""
+            className="bg-[#E7F6FF] transform rotate-[144.78deg] blur-3xl "
+          />
         </div>
       </div>
     </div>
